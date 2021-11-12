@@ -1,0 +1,15 @@
+.Dictionary input {
+  width: 75%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 4px;
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.Dictionary .dictionary-paragraph {
+  text-align: center;
+  font-size: 40px;
+}

@@ -13,7 +13,11 @@ export default function App() {
         </main>
         <footer>
           Coded by Caro Ahn and is{" "}
-          <a href="" rel="noreferrer" target="_blank">
+          <a
+            href="https://github.com/CaroAhn/dictionary-project.git"
+            rel="noreferrer"
+            target="_blank"
+          >
             open-sourced on GitHub
           </a>
         </footer>
