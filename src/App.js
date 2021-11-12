@@ -11,7 +11,12 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Caro Ahn</footer>
+        <footer>
+          Coded by Caro Ahn and is{" "}
+          <a href="" rel="noreferrer" target="_blank">
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );
