@@ -14,7 +14,7 @@ export default function App() {
         <footer>
           Coded by Caro Ahn and is{" "}
           <a
-            href="https://github.com/CaroAhn/dictionary-project.git"
+            href="https://github.com/CaroAhn/dictionary-project"
             rel="noreferrer"
             target="_blank"
           >
