@@ -1,10 +1,5 @@
-.App .container {
-  border: 1px solid #fafafa;
-  padding: 16px;
-  margin: 30px auto;
-  max-width: 900px;
-  border-radius: 10px;
-  background-color: #fafafa;
+body {
+  background: #ded7c9;
 }
 
 .App .logo {
