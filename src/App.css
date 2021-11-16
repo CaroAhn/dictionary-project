@@ -1,5 +1,7 @@
 body {
   background: #ded7c9;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .App .logo {
