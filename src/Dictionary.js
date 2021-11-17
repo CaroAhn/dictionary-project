@@ -51,7 +51,6 @@ export default function Dictionary() {
       <div className="Dictionary">
         <section>
           <form onSubmit={handleSubmit}>
-            <p className="dictionary-paragraph">What do you want to search?</p>
             <input
               type="search"
               onChange={keywordChange}

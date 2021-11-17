@@ -1,22 +1,10 @@
 body {
-  background: #ded7c9;
-  max-width: 75%;
+  background: #f5ece5;
+  max-width: 65%;
   margin: 0 auto;
-}
-
-.App .logo {
-  max-width: 110px;
-  position: relative;
-  left: 300px;
-}
-
-.App h1 {
-  position: relative;
-  left: 410px;
-  top: -80px;
 }
 
 .App footer {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 5px;
 }

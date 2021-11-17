@@ -1,0 +1,24 @@
+h1 {
+  width: 43ch;
+  font-weight: bold;
+  animation: type 5s steps(43), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Fira Mono", monospace;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
