@@ -1,14 +1,13 @@
 h1 {
-  width: 43ch;
+  width: 29ch;
   font-weight: bold;
-  animation: type 5s steps(43), blink 0.5s step-end infinite alternate;
+  animation: type 3s steps(29), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: "Fira Mono", monospace;
   display: block;
   margin: 0 auto;
-  text-align: center;
 }
 
 @keyframes type {

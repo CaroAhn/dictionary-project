@@ -2,4 +2,6 @@
   text-align: left;
   font-weight: bolder;
   line-height: 1.5;
+  text-transform: capitalize;
+  margin-bottom: 20px;
 }
