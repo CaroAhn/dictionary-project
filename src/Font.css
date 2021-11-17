@@ -1,7 +1,7 @@
 h1 {
-  width: 29ch;
+  width: 27ch;
   font-weight: bold;
-  animation: type 3s steps(29), blink 0.5s step-end infinite alternate;
+  animation: type 3s steps(27), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
