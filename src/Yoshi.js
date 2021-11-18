@@ -5,7 +5,7 @@ export default function Pikachu() {
   return (
     <div>
       <div className="yoshi"></div>
-      <div class="egg"></div>
+      <div className="egg"></div>
     </div>
   );
 }
