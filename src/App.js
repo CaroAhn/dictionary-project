@@ -1,13 +1,13 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import Pikachu from "./Pikachu";
+import Yoshi from "./Yoshi";
 import Font from "./Font";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Pikachu />
+        <Yoshi />
         <Font />
         <main>
           <Dictionary />

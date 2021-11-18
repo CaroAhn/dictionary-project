@@ -1,0 +1,174 @@
+.yoshi {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 250px;
+  transform: scale(8);
+  background: transparent;
+  height: 1px;
+  width: 1px;
+  font-size: 1vmin;
+  color: #6ddf1b;
+  box-shadow: 
+  /*1st row*/ 1px 0 black, 2px 0 black, 4px 0 black, 5px 0 black,
+    6px 0 black, /*2nd row*/ 0 1px black, 1px 1px white, 2px 1px white,
+    3px 1px black, 4px 1px white, 5px 1px white, 6px 1px, 7px 1px black,
+    /*3rd row*/ 0 2px black, 1px 2px white, 2px 2px black, 3px 2px white,
+    4px 2px black, 5px 2px white, 6px 2px white, 7px 2px, 8px 2px black,
+    /*4th row*/ 0 3px black, 1px 3px white, 2px 3px black, 3px 3px white,
+    4px 3px black, 5px 3px white, 6px 3px white, 7px 3px, 8px 3px black,
+    /*5th row*/ -2px 4px black, -1px 4px black, 0 4px #3d8209, 1px 4px #3d8209,
+    2px 4px black, 3px 4px white, 4px 4px black, 5px 4px white, 6px 4px white,
+    7px 4px, 8px 4px black, /*6th row*/ -3px 5px black, -2px 5px, -1px 5px,
+    0 5px, 1px 5px, 2px 5px #3d8209, 3px 5px #3d8209, 4px 5px white,
+    5px 5px white, 6px 5px white, 7px 5px, 8px 5px, 9px 5px black,
+    10px 5px black, /*7th row*/ -4px 6px black, -3px 6px, -2px 6px black,
+    -1px 6px, 0 6px black, 1px 6px, 2px 6px, 3px 6px, 4px 6px #3d8209,
+    5px 6px white, 6px 6px #3d8209, 7px 6px, 8px 6px, 9px 6px black,
+    10px 6px black, /*8th row*/ -5px 7px black, -4px 7px, -3px 7px, -2px 7px,
+    -1px 7px, 0 7px, 1px 7px, 2px 7px, 3px 7px, 4px 7px #3d8209, 5px 7px #3d8209,
+    6px 7px #3d8209, 7px 7px, 8px 7px, 9px 7px, 10px 7px black,
+    /*9th row*/ -5px 8px black, -4px 8px, -3px 8px, -2px 8px, -1px 8px, 0 8px,
+    1px 8px, 2px 8px, 3px 8px, 4px 8px, 5px 8px #3d8209, 6px 8px #3d8209,
+    7px 8px, 8px 8px, 9px 8px, 10px 8px black, 11px 8px black,
+    /*10th row*/ -5px 9px black, -4px 9px, -3px 9px, -2px 9px, -1px 9px, 0 9px,
+    1px 9px, 2px 9px, 3px 9px, 4px 9px #3d8209, 5px 9px #3d8209, 6px 9px white,
+    7px 9px white, 8px 9px white, 7px 9px white, 8px 9px white, 9px 9px white,
+    10px 9px black, 11px 9px black, /*11th row*/ -5px 10px black,
+    -4px 10px #3d8209, -3px 10px #3d8209, -2px 10px, -1px 10px, 0 10px, 1px 10px,
+    2px 10px, 3px 10px, 4px 10px #3d8209, 5px 10px black, 6px 10px white,
+    7px 10px white, 8px 10px white, 9px 10px white, 10px 10px black,
+    /*12th row*/ -4px 11px black, -3px 11px #3d8209, -2px 11px #3d8209,
+    -1px 11px #3d8209, 0 11px, 1px 11px, 2px 11px, 3px 11px #3d8209,
+    4px 11px black, 5px 11px black, 6px 11px white, 7px 11px white,
+    8px 11px white, 9px 11px black, 10px 11px black,
+    /*13th row*/ -3px 12px black, -2px 12px black, -1px 12px #3d8209,
+    0px 12px #3d8209, 1px 12px #3d8209, 2px 12px #3d8209, 3px 12px black,
+    4px 12px black, 5px 12px white, 6px 12px white, 7px 12px white,
+    8px 12px black, 9px 12px black, 10px 12px black,
+    /*14th row*/ -2px 13px black, -1px 13px black, 0px 13px black,
+    1px 13px black, 2px 13px black, 3px 13px black, 4px 13px white,
+    5px 13px white, 6px 13px black, 7px 13px black, 8px 13px black,
+    /*15th row*/ 2px 14px black, 3px 14px white, 4px 14px white, 5px 14px white,
+    6px 14px, 7px 14px, 8px 14px black, /*16th row*/ 1px 15px black,
+    2px 15px black, 3px 15px white, 4px 15px white, 5px 15px white, 6px 15px,
+    7px 15px, 8px 15px, 9px 15px black, /*17th row*/ 1px 16px black,
+    2px 16px white, 3px 16px white, 4px 16px white, 5px 16px, 6px 16px,
+    7px 16px black, 8px 16px, 9px 16px, 10px 16px black,
+    /*18th row*/ -1px 17px black, 0 17px black, 1px 17px black, 2px 17px white,
+    3px 17px white, 4px 17px white, 5px 17px black, 6px 17px black, 7px 17px,
+    8px 17px, 9px 17px, 10px 17px black, /*19th row*/ -2px 18px black,
+    -1px 18px #3d8209, 0 18px black, 1px 18px white, 2px 18px white,
+    3px 18px white, 4px 18px black, 5px 18px, 6px 18px, 7px 18px, 8px 18px,
+    9px 18px black, 10px 18px black, 11px 18px black,
+    /*20th row*/ -2px 19px black, -1px 19px #3d8209, 0 19px black,
+    1px 19px white, 2px 19px white, 3px 19px white, 4px 19px black,
+    5px 19px #3d8209, 6px 19px, 7px 19px #3d8209, 8px 19px black, 9px 19px,
+    10px 19px, 11px 19px black, 12px 19px black, /*21st row*/ -2px 20px black,
+    -1px 20px #3d8209, 0 20px black, 1px 20px white, 2px 20px white,
+    3px 20px white, 4px 20px black, 5px 20px #3d8209, 6px 20px #3d8209,
+    7px 20px black, 8px 20px black, 9px 20px, 10px 20px, 11px 20px, 12px 20px,
+    13px 20px black, /*22nd row*/ -1px 21px black, 0 21px black, 1px 21px white,
+    2px 21px white, 3px 21px white, 4px 21px white, 5px 21px black,
+    6px 21px black, 7px 21px black, 8px 21px, 9px 21px, 10px 21px, 11px 21px,
+    12px 21px black, 13px 21px black, /*23rd row*/ 0 22px black, 1px 22px,
+    2px 22px white, 3px 22px white, 4px 22px white, 5px 22px, 6px 22px, 7px 22px,
+    8px 22px, 9px 22px, 10px 22px black, 11px 22px black,
+    /*24th row*/ 1px 23px black, 2px 23px, 3px 23px white, 4px 23px, 5px 23px,
+    6px 23px, 7px 23px black, 8px 23px black, 9px 23px black,
+    /*25th row*/ 1px 24px black, 2px 24px black, 3px 24px white, 4px 24px black,
+    5px 24px black, 6px 24px black, 7px 24px, 8px 24px black,
+    /*26th row*/ 0 25px black, 1px 25px #ed462f, 2px 25px #ed462f,
+    3px 25px black, 4px 25px #ed462f, 5px 25px #ed462f, 6px 25px #ed462f,
+    7px 25px black, 8px 25px black, 9px 25px black, /*27th row*/ -1px 26px black,
+    0 26px #ed462f, 1px 26px #ed462f, 2px 26px black, 3px 26px #ed462f,
+    4px 26px #ed462f, 5px 26px #ed462f, 6px 26px #ed462f, 7px 26px #ed462f,
+    8px 26px #ed462f, 9px 26px black, /*28th row*/ -1px 27px black,
+    0 27px #ed462f, 1px 27px #ed462f, 2px 27px black, 3px 27px #ed462f,
+    4px 27px #ed462f, 5px 27px #ed462f, 6px 27px #ed462f, 7px 27px #ed462f,
+    8px 27px #ed462f, 9px 27px black, /*29th row*/ -1px 28px black, 0 28px black,
+    1px 28px black, 2px 28px black, 3px 28px black, 4px 28px black,
+    5px 28px black, 6px 28px black, 7px 28px black, 8px 28px black,
+    9px 28px black;
+}
+
+.egg {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  position: relative;
+  right: -365px;
+  bottom: 116px;
+  color: #6ddf1b;
+  box-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black,
+    /*2nd*/ 0 1px black, 1px 1px white, 2px 1px white, 3px 1px white,
+    4px 1px white, 5px 1px black, /*3rd*/ -1px 2px black, 0 2px white,
+    1px 2px white, 2px 2px white, 3px 2px white, 4px 2px, 5px 2px, 6px 2px black,
+    /*4rd*/ -2px 3px black, -1px 3px, 0 3px, 1px 3px white, 2px 3px white,
+    3px 3px white, 4px 3px, 5px 3px, 6px 3px, 7px 3px black,
+    /*5th*/ -2px 4px black, -1px 4px, 0 4px, 1px 4px white, 2px 4px white,
+    3px 4px white, 4px 4px, 5px 4px, 6px 4px, 7px 4px black,
+    /*6th*/ -3px 5px black, -2px 5px, -1px 5px, 0 5px, 1px 5px white,
+    2px 5px white, 3px 5px white, 4px 5px white, 5px 5px, 6px 5px, 7px 5px white,
+    8px 5px black, /*7th*/ -3px 6px black, -2px 6px, -1px 6px, 0 6px white,
+    1px 6px white, 2px 6px white, 3px 6px white, 4px 6px white, 5px 6px white,
+    6px 6px white, 7px 6px white, 8px 6px black, /*8th*/ -4px 7px black,
+    -3px 7px white, -2px 7px white, -1px 7px white, 0 7px white, 1px 7px white,
+    2px 7px, 3px 7px, 4px 7px, 5px 7px white, 6px 7px white, 7px 7px white,
+    8px 7px white, 9px 7px black, /*9th*/ -4px 8px black, -3px 8px white,
+    -2px 8px white, -1px 8px white, 0 8px white, 1px 8px, 2px 8px, 3px 8px,
+    4px 8px, 5px 8px, 6px 8px white, 7px 8px white, 8px 8px white, 9px 8px black,
+    /*10th*/ -4px 9px black, -3px 9px, -2px 9px, -1px 9px white, 0 9px white,
+    1px 9px, 2px 9px, 3px 9px, 4px 9px, 5px 9px, 6px 9px white, 7px 9px white,
+    8px 9px white, 9px 9px black, /*11th*/ -4px 10px black, -3px 10px, -2px 10px,
+    -1px 10px white, 0 10px white, 1px 10px, 2px 10px, 3px 10px, 4px 10px,
+    5px 10px, 6px 10px white, 7px 10px, 8px 10px, 9px 10px black,
+    /*12th*/ -3px 11px black, -2px 11px, -1px 11px, 0 11px white, 1px 11px white,
+    2px 11px, 3px 11px, 4px 11px, 5px 11px white, 6px 11px, 7px 11px,
+    8px 11px black, /*13th*/ -3px 12px black, -2px 12px, -1px 12px, 0 12px white,
+    1px 12px white, 2px 12px white, 3px 12px white, 4px 12px white,
+    5px 12px white, 6px 12px, 7px 12px, 8px 12px black, /*14*/ -2px 13px black,
+    -1px 13px white, 0 13px white, 1px 13px white, 2px 13px white,
+    3px 13px white, 4px 13px white, 5px 13px white, 6px 13px, 7px 13px black,
+    /*15th*/ -1px 14px black, 0 14px black, 1px 14px white, 2px 14px white,
+    3px 14px white, 4px 14px white, 5px 14px black, 6px 14px black,
+    /*16th*/ 0 15px black, 1px 15px black, 2px 15px black, 3px 15px black,
+    4px 15px black, 5px 15px black;
+
+  animation: shaking 1s infinite;
+}
+@keyframes shaking {
+  0% {
+    transform: translate(2px, 1px) rotate(0deg) scale(6);
+  }
+  10% {
+    transform: translate(-1px, -1px) rotate(-1deg) scale(6);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg) scale(6);
+  }
+  30% {
+    transform: translate(0px, 2px) rotate(0deg) scale(6);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg) scale(6);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg) scale(6);
+  }
+  60% {
+    transform: translate(-1px, 1px) rotate(0deg) scale(6);
+  }
+  70% {
+    transform: translate(2px, 1px) rotate(-1deg) scale(6);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg) scale(6);
+  }
+  90% {
+    transform: translate(2px, 2px) rotate(0deg) scale(6);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg) scale(6);
+  }
+}
