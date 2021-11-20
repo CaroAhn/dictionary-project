@@ -97,7 +97,7 @@
   height: 1px;
   background: transparent;
   position: relative;
-  right: -365px;
+  right: -395px;
   bottom: 116px;
   color: #6ddf1b;
   box-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black,
@@ -170,5 +170,11 @@
   }
   100% {
     transform: translate(1px, -2px) rotate(-1deg) scale(6);
+  }
+}
+
+@media (max-width: 960px) {
+  .egg {
+    right: -230px;
   }
 }
